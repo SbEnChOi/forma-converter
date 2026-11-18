@@ -1,0 +1,39 @@
+{
+  "name": "jhwpx-converter",
+  "version": "0.1.0",
+  "description": "Bidirectional converter between HWP, HWPX, and DOCX formats in Node.js",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "jhwpx-converter": "dist/jhwpx-converter-cli.js",
+    "hwpx-convert": "dist/jhwpx-converter-cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "docx",
+    "hwpx",
+    "owpml",
+    "converter",
+    "hwp"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/pako": "^2.0.4",
+    "cfb": "^1.2.2",
+    "fast-xml-parser": "^5.11.1",
+    "jszip": "^3.10.1",
+    "pako": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.4.0",
+    "vitest": "^1.4.0"
+  }
+}

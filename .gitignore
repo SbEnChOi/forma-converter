@@ -1,0 +1,12 @@
+node_modules/
+dist/
+release/
+output/
+.cache/
+vendor/jhwpx-converter/dist/
+vendor/jhwpx.mjs
+*.log
+.env
+.env.*
+Thumbs.db
+.DS_Store
